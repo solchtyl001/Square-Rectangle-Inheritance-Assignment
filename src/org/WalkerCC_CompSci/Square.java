@@ -1,9 +1,7 @@
-package org.WalkerCC_CompSci;
-
 public final class Square extends Rectangle{
 
     public Square(double sideLength) {
-        super();  //What goes here?
+        super(sideLength, sideLength);  
 
     }
 
@@ -12,7 +10,9 @@ public final class Square extends Rectangle{
     }
 
     public void setSideLength(double width){
-        //What goes here?
+        this.length = width;
+        this.width = width;
+        
     }
 
 
