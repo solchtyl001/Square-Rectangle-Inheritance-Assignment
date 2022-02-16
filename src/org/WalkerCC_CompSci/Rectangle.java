@@ -1,5 +1,3 @@
-package org.WalkerCC_CompSci;
-
 public class Rectangle {
     protected double length;
     protected double width;
@@ -27,9 +25,7 @@ public class Rectangle {
     }
 
     public double Area(){
-        //What goes here?
+        return length*width;
     }
 
 }
-
-
